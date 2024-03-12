@@ -1,0 +1,25 @@
+---
+title: "Nanopore analysis"
+output: 
+  md_document:
+    variant: gfm
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  message = FALSE,
+  warning = FALSE,
+  comment = "#>"
+)
+```
+
+# Coverage
+
+Upload a `*.coverage` file to this Shiny app to
+
+- plot coverage (and save plot as a PDF);
+
+- calculate horizontal and vertical coverage.
