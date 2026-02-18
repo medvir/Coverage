@@ -31,8 +31,8 @@ server <- function(input, output) {
     ggplot(data(), aes(x = V2, y = V3)) +
       geom_line() +
       scale_y_log10(
-        limits = c(1, 1e5),
-        breaks = c(1, 10, 100, 1000, 10000, 100000),
+        limits = c(1, 1e6),
+        breaks = c(1, 10, 100, 1000, 10000, 100000, 1000000),
         minor_breaks = rep(1:9, 21) * (10^rep(-10:10, each = 9))
       ) +
       theme_minimal() +
